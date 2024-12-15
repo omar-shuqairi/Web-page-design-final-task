@@ -45,7 +45,7 @@ const mealImages = document.querySelectorAll(".img-class");
 chooseButtons.forEach((button, index) => {
     button.addEventListener("click", function () {
         if (mealImages[index]) {
-            mealImages[index].src = "/Images/check-omg.png";
+            mealImages[index].src = "../Images/check-omg.png";
         }
     });
 });
